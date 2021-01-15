@@ -1,0 +1,12 @@
+stage ('first')
+{
+    build quietPeriod: 1, job: 'sample2'
+}
+stage ('second')
+{
+    build quietPeriod: 3, job: 'samplejob'
+}
+stage ('third')
+{
+    build quietPeriod: 5, job: 'sample3'
+}
