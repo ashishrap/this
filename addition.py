@@ -1,4 +1,4 @@
-a=float(input("enter the no."))
-b=float(input("enter the no."))
+a=10
+b=20
 c=a+b
 print(c)
